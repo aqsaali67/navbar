@@ -1,0 +1,36 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px   ;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 20px rgba(65, 65, 65, 0.2);
+    position: sticky;
+}
+.logo h1::after{
+    content: "Addict";
+    display: inline;
+    color: #1c69ed;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 0px 5px;
+}
+.icons{
+    width: 30px;
+    display: flex;
+}
+.icon{
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+}
